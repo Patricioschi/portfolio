@@ -1,0 +1,5 @@
+.padding-2px.card.dark-card.align-text-middle{background-color: #707b7c }
+.padding-2px.card.light-card.align-text-middle {background-color: #efefef}
+.padding-2px{padding-top: 3cm; margin-left: 80px}
+.dark-card{background-color:#707b7c ; width: 80%;  color:#efefef}
+.light-card{width: 80%; background-color: #efefef; color:  #707b7c  }
