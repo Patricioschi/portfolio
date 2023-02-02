@@ -1,3 +1,35 @@
+function authenticate() {
+	
+	const alert = document.createElement('div');
+	
+	alert.innerHTML = [
+		'<div class="alert alert-danger" >Email o contraseña no válida</div>'
+	];
+
+	document.getElementById('exampleModalLabel').appendChild(alert);
+}
+
+
+/*	const alert = (message, type) => {
+		const wrapper = document.createElement('div')
+		wrapper.innerHTML = [
+			`<div class="alert alert-${type} alert-dismissible" role="alert">`,
+			`   <div>${message}</div>`,
+			'   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+			'</div>'
+		].join('')
+
+		alertPlaceholder.append(wrapper)
+	}
+
+	const alertTrigger = document.getElementById('liveAlertBtn')
+	if (alertTrigger) {
+		alertTrigger.addEventListener('click', () => {
+			alert('Email o contraseña no válida', 'danger')
+		})
+	}
+}
+
 var app = angular.module('myApp',[]);
 
 app.controller('myController',function($scope){
@@ -42,4 +74,4 @@ app.controller('myController',function($scope){
 
 	}
 
-});
+});*/

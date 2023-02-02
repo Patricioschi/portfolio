@@ -3,3 +3,14 @@
 .padding-2px{padding-top: 3cm; margin-left: 80px}
 .dark-card{background-color:#707b7c ; width: 80%;  color:#efefef}
 .light-card{width: 80%; background-color: #efefef; color:  #707b7c  }
+.text-center{
+    text-align:center
+}
+#projects{
+    color:black;
+}
+.project-card{
+    margin: 20px;
+    width: 18rem;
+    
+}

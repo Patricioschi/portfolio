@@ -18,7 +18,7 @@
         <a class="nav-link" href="#educación">Educación</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#h&s">Hard & Soft Skills</a>
+        <a class="nav-link" href="#hns">Hard & Soft Skills</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#projects">Proyectos</a>
@@ -40,12 +40,49 @@
             <a href="https://www.linkedin.com/in/patricio-schilman-722158243/"><img type=submit src="https://cdn-icons-png.flaticon.com/512/179/179330.png" width="37" height="37" alt="LinkedIn"></a>
           </li>
           <li>
-            <a href="assets/nuevodesafio.pdf" download="assets/nuevodesafio.pdf"><img type=submit src="https://cdn-icons-png.flaticon.com/512/5558/5558322.png" width="37" height="37" alt="Descargar PDF"></a>
+            <a href="assets/SchilmanCV.pdf" download="assets/SchilmanCV.pdf"><img type=submit src="https://cdn-icons-png.flaticon.com/512/5558/5558322.png" width="37" height="37" alt="Descargar PDF"></a>
           </li>
-        
+          <li>
+            <a href="mailto:patricioschilman@gmail.com" ><img type=submit src="/assets/img/mail-logo.png" width="37" height="37" alt="Mail"></a>
+          </li>
+                
         </ul>
-      <button class="btn btn-outline-success" type="submit" onclick="onclick_error()">Log In</button>
+      <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Log In</button>
     </form>
   </div>
 </div>
 </nav>
+
+<!--Log In Modal
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+    
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="staticEmail">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-footer">
+        <button ng-click="authenticate()" class="btn btn-success pull-right">Login</button>
+       
+      </div>
+      
+    </div>
+  </div>
+</div>
+-->

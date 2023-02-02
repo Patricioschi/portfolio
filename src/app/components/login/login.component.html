@@ -1,31 +1,30 @@
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" ng-app="myApp" ng-controller="myController">
+<div class="modal fade" id="loginModal">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
       
         <div class="modal-body">
           <div class="mb-3 row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="staticEmail">
+              <input type="text" required class="form-control" id="staticEmail">
             </div>
           </div>
           <div class="mb-3 row">
             <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
             <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword">
+              <input type="password" required class="form-control" id="inputPassword">
             </div>
           </div>
         </div>
         
         <div class="modal-footer">
-          <button ng-click="authenticate()" class="btn btn-success pull-right">Login</button>
+          <button onclick="authenticate()" class="btn btn-success pull-right">Login</button>
         </div>
         
       </div>
     </div>
   </div>
-  
